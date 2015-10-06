@@ -1,0 +1,2 @@
+# RGI
+RGI (Reference Genome Index) is a index based on a FM index (google BWBBLE for more information) that searches a collection of genomes called the reference genome. The RGI uses Wavelet Tree for rank queries, Suffix Array (libdivsufsort) and BWT (constructed from the SA) to answer search queries. The RGI is explained in detail in my bachelor thesis Memory-Efficient Storage of Multiple Genomes of the Same Species.
